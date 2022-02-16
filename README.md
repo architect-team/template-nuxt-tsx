@@ -4,12 +4,14 @@ I love Nuxt and Vue for heavy web applications, but have recently grown to favor
 
 I've put together this project to help myself and others setup new web application projects easily. Enjoy!
 
+![Screenshot](./screenshot.png)
+
 ## Getting started
 
 ### Clone and install dependencies
 
 ```sh
-git clone https://github.com/davidthor/nuxt-tsx-starter.git
+git clone https://github.com/architect-team/template-nuxt-tsx.git
 npm install
 ```
 
@@ -58,7 +60,7 @@ $ architect platform:create --type "kubernetes" --account "<my-account>" my-plat
 $ architect environment:create --account "<my-account>" --platform "my-platform" production
 
 # Deploy
-$ architect deploy --account "<my-account>" --environment "production" davidthor/nuxt-tsx-starter:latest
+$ architect deploy --account "<my-account>" --environment "production" architect/template-nuxt-tsx:latest
 ```
 
 ## Larger projects
